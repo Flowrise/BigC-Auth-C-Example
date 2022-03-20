@@ -3,6 +3,7 @@
 #include "Protection/anti_hook.hpp"
 #include "Protection/debugger_detect.hpp"
 #include "helper.h"
+#include <thread>
 
 /*Please watch https://youtu.be/WS8sLlfu4Go before you ask any questions about the Setup*/
 
