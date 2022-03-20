@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{d9cee197-056b-42cf-90d9-e2e20d8ad45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{e38e6e32-6c1c-440e-ba0b-e9c3150dcfc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\c_auth.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\c_xor.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\anti_hook.hpp">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\debugger_detect.hpp">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\utils.hpp">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\XorStr.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h" />
+  </ItemGroup>
+</Project>
